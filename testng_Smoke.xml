@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!-- <groups>
+         <run>
+             <include name="Smoke"/>
+         </run>
+     </groups>-->
+    <listeners>
+        <listener class-name="org.genesistech.testUtils.Listeners">
+        </listener>
+    </listeners>
+    <test thread-count="1" verbose="2" preserve-order="true" name="FillFormTest">
+        <classes>
+            <class name="org.genesistech.ecommerce_tc_1">
+                <methods>
+                    <include name="fillFormNegativeFlow"/>
+                    <include name="fillFormPositiveFlow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

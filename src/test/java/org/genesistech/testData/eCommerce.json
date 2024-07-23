@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Preeti",
+    "gender": "female",
+    "country" : "Australia"
+  },
+
+  {
+    "name": "Sanket",
+    "gender": "male",
+    "country" : "Australia"
+  }
+]
