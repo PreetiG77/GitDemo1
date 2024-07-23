@@ -39,6 +39,8 @@ public class ecommerce_tc_1 extends BaseClass {
 
         String toastMessage = driver.findElement(By.xpath("(//android.widget.Toast)[1]")).getAttribute("name");
         Assert.assertEquals(toastMessage,"Please enter your name");
+        System.out.println("Name is missing");
+
     }
 
     @Test
